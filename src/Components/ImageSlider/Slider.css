@@ -1,0 +1,66 @@
+.App{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.slick-slide > div {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+img{
+    width: 300px;
+    height: 300px; 
+}
+.App.card{
+   
+    border: 2px solid rgb(216, 30, 30);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 470px;
+    color: rgb(0, 0, 255);
+    padding: 10px;
+}
+
+.card-top>img{
+    width: 100%;
+   
+    object-fit: cover;
+    
+}
+.card-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+.card-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+span{
+    color: red;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 5px;
+}
+.arrow{
+    font-size: 30px;
+    padding: 10px;
+}
+.arrow:hover{
+    cursor: pointer;
+}
